@@ -43,7 +43,7 @@ const input = ({ placeholder, value, setBox, checked }: Props) => {
                 keyboardType="numeric"
                 onChangeText={(text) => handleInputChange(text)}
                 value={value}
-                // style={styles.input}
+                style={{width: width/1.6}}
             />
             <BouncyCheckbox
                 size={25}
